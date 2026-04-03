@@ -1,1 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djatmiko, S.Pd., M.Ed. | PhD Candidate & Lecturer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .gradient-header { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); }
+        .section-card { @apply bg-white p-6 rounded-2xl shadow-sm border border-slate-100 mb-6 transition-all hover:shadow-md; }
+        .pub-link { @apply text-blue-600 hover:text-blue-800 break-all text-[11px] font-medium mt-2 inline-block; }
+        .badge { @apply text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
 
+    <!-- Sticky Nav -->
+    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50 border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="font-bold text-blue-900 tracking-tight">DJATMIKO</span>
+            <div class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600">
+                <a href="#about" class="hover:text-blue-600 transition">Bio</a>
+                <a href="#education" class="hover:text-blue-600 transition">Education</a>
+                <a href="#teaching" class="hover:text-blue-600 transition">Teaching</a>
+                <a href="#publications" class="hover:text-blue-600 transition">Publications</a>
+            </div>
+            <div class="flex gap-4">
+                <a href="https://orcid.org/0009-0007-6756-8505" target="_blank" class="text-slate-400 hover:text-green-600"><i class="fa-brands fa-orcid text-xl"></i></a>
+                <a href="mailto:djatmikodjatmiko@unesa.ac.id" class="text-slate-400 hover:text-blue-600"><i class="fa-solid fa-envelope text-xl"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / Profile -->
+    <header class="pt-32 pb-20 gradient-header text-white px-6">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-12 items-center">
+            <div class="md:col-span-1 flex justify-center">
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                    <div class="relative w-56 h-64 bg-slate-800 rounded-2xl overflow-hidden border-2 border-white/10 flex items-center justify-center">
+                        <i class="fa-solid fa-user-graduate text-8xl text-blue-400/50"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="md:col-span-2 text-center md:text-left">
+                <div class="inline-block px-3 py-1 bg-blue-500/20 border border-blue-400/30 rounded-full text-blue-300 text-xs font-bold tracking-widest uppercase mb-4">
+                    Research Portfolio
+                </div>
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-2 tracking-tight">Djatmiko, S.Pd., M.Ed.</h1>
+                <p class="text-2xl text-blue-300 font-semibold mb-4">PhD Candidate in Educational Technology</p>
+                <p class="text-lg text-blue-100/70 font-light mb-8 italic">Lecturer at Universitas Negeri Surabaya</p>
+                
+                <div class="flex flex-wrap gap-3 justify-center md:justify-start">
+                    <span class="flex items-center gap-2 bg-white/10 px-3 py-1.5 rounded-lg border border-white/10 text-xs">
+                        <i class="fa-solid fa-microchip text-cyan-400"></i> Generative AI (GenAI)
+                    </span>
+                    <span class="flex items-center gap-2 bg-white/10 px-3 py-1.5 rounded-lg border border-white/10 text-xs">
+                        <i class="fa-solid fa-laptop-code text-cyan-400"></i> E-Learning & LMS
+                    </span>
+                    <span class="flex items-center gap-2 bg-white/10 px-3 py-1.5 rounded-lg border border-white/10 text-xs">
+                        <i class="fa-solid fa-id-badge text-cyan-400"></i> Scopus ID: 60374608600
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 -mt-10 relative z-10 pb-20">
+        
+        <div class="grid lg:grid-cols-3 gap-8">
+            <!-- Sidebar -->
+            <div class="lg:col-span-1">
+                <div class="bg-white p-6 rounded-2xl shadow-xl border border-slate-100 sticky top-24">
+                    <h3 class="font-bold text-slate-900 mb-6 flex items-center gap-2 border-b pb-4">
+                        <i class="fa-solid fa-address-book text-blue-600"></i> Academic Contact
+                    </h3>
+                    <div class="space-y-6">
+                        <div>
+                            <p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider mb-2">Primary Affiliation</p>
+                            <p class="text-sm font-semibold text-slate-800">Faculty of Education</p>
+                            <p class="text-sm text-slate-600">Southwest University, Chongqing, China</p>
+                        </div>
+                        <div>
+                            <p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider mb-2">Institutional Emails</p>
+                            <div class="space-y-2">
+                                <a href="mailto:djatmikodjatmiko@unesa.ac.id" class="block text-xs font-medium text-blue-600 hover:underline">djatmikodjatmiko@unesa.ac.id</a>
+                                <a href="mailto:gjxy2023051@email.swu.edu.cn" class="block text-xs font-medium text-blue-600 hover:underline">gjxy2023051@email.swu.edu.cn</a>
+                                <a href="mailto:djatmikosuwandi@gmail.com" class="block text-xs font-medium text-slate-500 hover:underline">djatmikosuwandi@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="pt-4 border-t border-slate-50">
+                            <p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider mb-3">Academic Identifiers</p>
+                            <div class="space-y-3">
+                                <a href="https://orcid.org/0009-0007-6756-8505" target="_blank" class="flex items-center gap-3 text-xs text-slate-600 hover:text-green-600 transition">
+                                    <div class="w-8 h-8 rounded-lg bg-green-50 flex items-center justify-center text-green-600">
+                                        <i class="fa-brands fa-orcid"></i>
+                                    </div>
+                                    <span>ORCID Profile</span>
+                                </a>
+                                <div class="flex items-center gap-3 text-xs text-slate-600">
+                                    <div class="w-8 h-8 rounded-lg bg-orange-50 flex items-center justify-center text-orange-600">
+                                        <i class="fa-solid fa-quote-right"></i>
+                                    </div>
+                                    <span>Scopus ID: 60374608600</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="lg:col-span-2">
+                <!-- Bio -->
+                <section id="about" class="mb-12">
+                    <div class="section-card border-l-4 border-l-blue-600 !bg-blue-50/30">
+                        <h2 class="text-2xl font-bold mb-4">Professional Biography</h2>
+                        <p class="text-slate-700 leading-relaxed text-justify">
+                            Djatmiko is a <strong>PhD candidate in Educational Technology at Southwest University, Chongqing, China</strong>, and a lecturer at <strong>Universitas Negeri Surabaya (UNESA)</strong>. His research is at the forefront of <strong>Generative Artificial Intelligence (GenAI)</strong> integration in higher education, specifically focusing on how AI-mediated instruction can enhance student engagement and optimize e-learning ecosystems.
+                        </p>
+                        <p class="text-slate-700 leading-relaxed text-justify mt-4">
+                            With over a decade of professional experience, he has served as a strategic consultant for digital transformation at the <strong>Indonesian Ministry of Health (Kemenkes)</strong>, <strong>Bank Indonesia</strong>, and the <strong>SPADA Indonesia</strong> initiative. His work bridges the gap between pedagogical theory and technological application, aiming to foster innovative and equitable learning environments globally.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Teaching Portfolio -->
+                <section id="teaching" class="mb-12">
+                    <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
+                        <span class="w-8 h-8 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-sm font-bold">01</span>
+                        Teaching Portfolio
+                    </h2>
+                    <div class="grid gap-4">
+                        <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+                            <h3 class="font-bold text-slate-900 mb-4 flex items-center gap-2">
+                                <i class="fa-solid fa-book-bookmark text-blue-600"></i> Core Courses (Current & Recent)
+                            </h3>
+                            <div class="grid sm:grid-cols-2 gap-x-8 gap-y-4">
+                                <div class="border-l-2 border-blue-200 pl-4">
+                                    <p class="font-bold text-sm text-slate-800">Curriculum Development</p>
+                                    <p class="text-xs text-slate-500">Design, implementation, and evaluation of modern educational curricula.</p>
+                                </div>
+                                <div class="border-l-2 border-blue-200 pl-4">
+                                    <p class="font-bold text-sm text-slate-800">AI Literature Education</p>
+                                    <p class="text-xs text-slate-500">Exploring AI tools and literacy within educational research contexts.</p>
+                                </div>
+                                <div class="border-l-2 border-blue-200 pl-4">
+                                    <p class="font-bold text-sm text-slate-800">Message Design & Learning Comm.</p>
+                                    <p class="text-xs text-slate-500">Visual communication and psychological principles in instruction.</p>
+                                </div>
+                                <div class="border-l-2 border-blue-200 pl-4">
+                                    <p class="font-bold text-sm text-slate-800">Learning Methods & Models</p>
+                                    <p class="text-xs text-slate-500">Applying pedagogical models to enhance classroom effectiveness.</p>
+                                </div>
+                                <div class="border-l-2 border-blue-200 pl-4">
+                                    <p class="font-bold text-sm text-slate-800">Training Management</p>
+                                    <p class="text-xs text-slate-500">Logistics and strategic planning for large-scale educational training.</p>
+                                </div>
+                                <div class="border-l-2 border-blue-200 pl-4">
+                                    <p class="font-bold text-sm text-slate-800">English for Educators</p>
+                                    <p class="text-xs text-slate-500">Specialized language skills for global academic collaboration.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Publications -->
+                <section id="publications" class="mb-12">
+                    <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
+                        <span class="w-8 h-8 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center text-sm font-bold">02</span>
+                        Publication List
+                    </h2>
+                    
+                    <div class="space-y-6">
+                        <!-- 2025 -->
+                        <div class="relative pl-6 border-l-2 border-slate-200">
+                            <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-600 border-4 border-white"></div>
+                            <h3 class="font-bold text-blue-900 mb-4">2025 Publications</h3>
+                            
+                            <div class="space-y-4">
+                                <div class="section-card">
+                                    <span class="badge bg-purple-100 text-purple-700">Journal Article</span>
+                                    <p class="text-sm mt-2">Budiarto, M. K., ... <strong>Djatmiko</strong>, et al. (2025). <span class="font-semibold">Interactive-based media and effective learning strategies to improve students' digital literacy: A structured literature review.</span> <em>Journal of Teaching and Learning, 20(1).</em></p>
+                                    <a href="https://doi.org/10.22329/jtl.v20i1.9765" class="pub-link">https://doi.org/10.22329/jtl.v20i1.9765</a>
+                                </div>
+
+                                <div class="section-card">
+                                    <span class="badge bg-green-100 text-green-700">Community Service</span>
+                                    <p class="text-sm mt-2">Ilham Laksana, ... <strong>Djatmiko</strong>, et al. (2025). <span class="font-semibold">Memberdayakan pemuda melalui penelitian tindakan partisipatif dan etika media sosial: Inisiatif pengabdian masyarakat.</span> <em>Jurnal PADI, 8(2).</em></p>
+                                    <a href="https://doi.org/10.51836/jpadi.v8i2.852" class="pub-link">https://doi.org/10.51836/jpadi.v8i2.852</a>
+                                </div>
+
+                                <div class="section-card">
+                                    <span class="badge bg-purple-100 text-purple-700">Journal Article</span>
+                                    <p class="text-sm mt-2">Andrianto, R. E., ... & <strong>Djatmiko</strong>. (2025). <span class="font-semibold">Fostering 21st Century Skills Through Product-Based Learning with a Focus on Collaboration in Higher Education.</span> <em>Journal of Education Research and Evaluation, 9(3).</em></p>
+                                    <a href="https://doi.org/10.23887/jere.v9i3.102337" class="pub-link">https://doi.org/10.23887/jere.v9i3.102337</a>
+                                </div>
+
+                                <div class="section-card">
+                                    <span class="badge bg-blue-100 text-blue-700">Research Paper</span>
+                                    <p class="text-sm mt-2">Farida, A., Atina, V., & Suwandi, D. (2025). <span class="font-semibold">Mathematical Modeling and Integration of Machine Learning-Based Prediction System on E-Learning Platform.</span> <em>JTAM, 9(3).</em></p>
+                                    <a href="https://doi.org/10.31764/jtam.v9i3.30994" class="pub-link">https://doi.org/10.31764/jtam.v9i3.30994</a>
+                                </div>
+
+                                <div class="section-card">
+                                    <span class="badge bg-cyan-100 text-cyan-700">Applied Tech</span>
+                                    <p class="text-sm mt-2">Virninda, A. N., <strong>Djatmiko</strong>, et al. (2025). <span class="font-semibold">E-Vokids: AR-based Application for English Vocabulary Media Learning.</span> <em>Jurnal Pembelajaran Inovatif, 8(1).</em></p>
+                                    <a href="https://doi.org/10.21009/JPI.081.02" class="pub-link">https://doi.org/10.21009/JPI.081.02</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2024 -->
+                        <div class="relative pl-6 border-l-2 border-slate-200">
+                            <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-slate-400 border-4 border-white"></div>
+                            <h3 class="font-bold text-slate-500 mb-4">2024 Publications</h3>
+                            
+                            <div class="space-y-4">
+                                <div class="section-card">
+                                    <span class="badge bg-purple-100 text-purple-700">Journal Article</span>
+                                    <p class="text-sm mt-2"><strong>Djatmiko, T.</strong>, Wijaya, T. T., et al. (2024). <span class="font-semibold">The Influence of Baidu AI Chatbot Ernie on Perceived Usefulness and Ease of Use Among University Students in China.</span> <em>Asian Journal of Research in Education, 6(S3).</em></p>
+                                    <a href="https://doi.org/10.55057/ajress.2024.6.S3.19" class="pub-link">https://doi.org/10.55057/ajress.2024.6.S3.19</a>
+                                </div>
+
+                                <div class="section-card">
+                                    <span class="badge bg-slate-100 text-slate-700">Book Chapter</span>
+                                    <p class="text-sm mt-2">Yu, L., Zhou, H., Shao, J., <strong>Djatmiko</strong> (2024). <span class="font-semibold">The Theory and Practice of Home-School-Community Collaborative Education in the Era of AI.</span> <em>Springer, Singapore.</em></p>
+                                    <a href="https://doi.org/10.1007/978-981-97-0076-9_15" class="pub-link">https://doi.org/10.1007/978-981-97-0076-9_15</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Thesis -->
+                        <div class="relative pl-6 border-l-2 border-slate-200">
+                            <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-slate-400 border-4 border-white"></div>
+                            <h3 class="font-bold text-slate-500 mb-4">Master's Thesis</h3>
+                            <div class="section-card">
+                                <span class="badge bg-slate-100 text-slate-700">Thesis 2023</span>
+                                <p class="text-sm mt-2"><strong>Djatmiko</strong>. (2023). <span class="font-semibold">Teachers' Preparedness in Addressing Learning Loss: A Case Study of School Reopening in Indonesia after the Covid-19 Pandemic.</span> Northeast Normal University.</p>
+                                <a href="https://kns.cnki.net/KCMS/detail/detail.aspx?dbname=CMFD202401&filename=1023696101.nh" class="pub-link">CNKI Repository Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-slate-900 text-white py-16 px-6">
+        <div class="max-w-6xl mx-auto text-center border-b border-slate-800 pb-12 mb-8">
+            <h3 class="text-2xl font-bold mb-2">Djatmiko, S.Pd., M.Ed.</h3>
+            <p class="text-blue-400 font-semibold mb-6">PhD Candidate @ Southwest University</p>
+            <div class="flex justify-center gap-6 text-2xl">
+                <a href="https://orcid.org/0009-0007-6756-8505" target="_blank" class="hover:text-green-500 transition"><i class="fa-brands fa-orcid"></i></a>
+                <a href="mailto:djatmikosuwandi@gmail.com" class="hover:text-blue-400 transition"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-[10px] uppercase font-bold tracking-widest text-slate-500">
+            <p>&copy; 2026 Academic Portfolio - All Rights Reserved</p>
+            <p>Verified Data | Chongqing - Indonesia</p>
+        </div>
+    </footer>
+
+</body>
+</html>
